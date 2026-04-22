@@ -1,16 +1,44 @@
 # criminal-records-system
-This project demonstrates a basic client-server system built in Python using sockets, along with a relational database designed in SQL Server.
+ 
+This project demonstrates:
+- Client-server communication using Python sockets
+- Multi-threaded server handling multiple clients
+- Separate admin and normal user clients
+- SQL database design for storing criminal records
 
-#Features
--The admin client is used for adding profiles and criminal records.
--The user client is for searhing profles and crimes
--Multi-threaded Python serverTechnologies
+---
 
+##  Technologies Used
 
-#Technologies
--Python (Sockets, Threading)
--Microsoft SQL Server (Database Design)
+- Python (Sockets, Threading)
+- Microsoft SQL Server (Database Design)
+- SQL (DDL & DML)
 
+---
 
-#Notes
--I created this project as part of my degree coursework.
+##  System Structure
+
+###  Server
+- Handles incoming client requests
+- Processes commands such as:
+  - Add profile
+  - Add criminal record
+  - Search profile
+  - Search crime
+
+###  Admin Client
+- Login functionality
+- Add new profiles
+- Add criminal records
+- Search data
+
+###  Normal Client
+- Search profiles
+- Search criminal records
+
+###  Database
+Contains 3 tables:
+- Profile_table
+- Crime_table
+- Admin_table
+
