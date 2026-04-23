@@ -1,5 +1,7 @@
 # criminal-records-system
- 
+Developed as part of my academic studies as a final-year project
+
+
 This project demonstrates:
 - Client-server communication using Python sockets
 - Multi-threaded server handling multiple clients
@@ -35,6 +37,8 @@ This project demonstrates:
 ###  Normal Client
 - Search profiles
 - Search criminal records
+
+
 
 ###  Database
 Contains 3 tables:
